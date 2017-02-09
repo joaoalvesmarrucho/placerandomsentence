@@ -6,9 +6,6 @@ var sentences = [
 ];
 var element;
 element = document.getElementById(container);
-
-console.log(container);
-
 function randomise() {
   var randomSentence = sentences[Math.floor(Math.random() * 4)];
   console.log(randomSentence);

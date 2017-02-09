@@ -1,16 +1,13 @@
 var sentences = [
-  "Saab. ",
-  "Volvo. ",
-  "BMW. ",
-  "Ford. "
+  "As armas e os barões assinalados. ",
+  "Que da ocidental praia Lusitana. ",
+  "Por mares nunca de antes navegados. ",
+  "Passaram ainda além da Taprobana. "
 ];
 var element;
 element = document.getElementById(container);
 function randomise() {
   var randomSentence = sentences[Math.floor(Math.random() * 4)];
-  console.log(randomSentence);
    $(container).append(randomSentence);
-  return randomSentence;
 }
-setInterval(function(){randomise(); }, 1000);
-// randomise();
+setInterval(function(){randomise(); }, 2000);

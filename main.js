@@ -4,8 +4,7 @@ var sentences = [
   "Por mares nunca de antes navegados. ",
   "Passaram ainda além da Taprobana. "
 ];
-var element;
-element = document.getElementById(container);
+
 function randomise() {
   var randomSentence = sentences[Math.floor(Math.random() * 4)];
    $(container).append(randomSentence);

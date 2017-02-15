@@ -7,6 +7,6 @@ var sentences = [
 
 function randomise() {
   var randomSentence = sentences[Math.floor(Math.random() * 4)];
-   $(container).append(randomSentence);
+   $(container).append(('<p>' +  randomSentence + '</p>'));
 }
 setInterval(function(){randomise(); }, 2000);
